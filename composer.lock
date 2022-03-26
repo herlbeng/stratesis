@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b2b7dfd754ddc43ee1ed52c16dcdcfb6",
+    "content-hash": "33baa6b975d361c9e426c6be6d925ed6",
     "packages": [
         {
             "name": "barryvdh/laravel-dompdf",
@@ -1932,6 +1932,63 @@
             "time": "2017-12-28T16:14:16+00:00"
         },
         {
+            "name": "questocat/laravel-referral",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/questocat/laravel-referral.git",
+                "reference": "3e7fc5cec5afe9ba76dca531b4722c800a8f4e1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/questocat/laravel-referral/zipball/3e7fc5cec5afe9ba76dca531b4722c800a8f4e1a",
+                "reference": "3e7fc5cec5afe9ba76dca531b4722c800a8f4e1a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "laravel/laravel": "^5.5",
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0|~5.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Questocat\\Referral\\ReferralServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Questocat\\Referral\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "questocat",
+                    "email": "zhengchaopu@gmail.com"
+                }
+            ],
+            "description": "A Referral System With Laravel",
+            "keywords": [
+                "affiliate-tracking",
+                "referral",
+                "referral-system"
+            ],
+            "support": {
+                "issues": "https://github.com/questocat/laravel-referral/issues",
+                "source": "https://github.com/questocat/laravel-referral/tree/master"
+            },
+            "time": "2020-05-07T12:20:09+00:00"
+        },
+        {
             "name": "ramsey/uuid",
             "version": "3.7.3",
             "source": {
@@ -2013,16 +2070,16 @@
         },
         {
             "name": "sabberworm/php-css-parser",
-            "version": "8.1.0",
+            "version": "8.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabberworm/PHP-CSS-Parser.git",
-                "reference": "850cbbcbe7fbb155387a151ea562897a67e242ef"
+                "reference": "b3683fba4e30963908265b039190a0e88f74c6fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/850cbbcbe7fbb155387a151ea562897a67e242ef",
-                "reference": "850cbbcbe7fbb155387a151ea562897a67e242ef",
+                "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/b3683fba4e30963908265b039190a0e88f74c6fb",
+                "reference": "b3683fba4e30963908265b039190a0e88f74c6fb",
                 "shasum": ""
             },
             "require": {
@@ -2053,7 +2110,11 @@
                 "parser",
                 "stylesheet"
             ],
-            "time": "2016-07-19T19:14:21+00:00"
+            "support": {
+                "issues": "https://github.com/sabberworm/PHP-CSS-Parser/issues",
+                "source": "https://github.com/sabberworm/PHP-CSS-Parser/tree/8.1.1"
+            },
+            "time": "2020-06-01T09:09:10+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4944,5 +5005,6 @@
     "platform": {
         "php": ">=7.0.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
 }
